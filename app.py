@@ -144,5 +144,5 @@ def update_navbar(pathname):
 
 if __name__ == '__main__':
     app.run(
-        debug=False
+        debug=True
     )

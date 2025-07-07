@@ -36,6 +36,8 @@ def load_data() -> pd.DataFrame:
     df = pd.read_csv(data_path, encoding='utf-8')
     df = clean_column_names(df)
 
+    df = df.loc[df['estado_de_postulacion'] == 'Asignados']
+
     df = df.groupby(['ano_de_asignacion', 'departamento', 'municipio', 'programa', 'estado_de_postulacion'], as_index=False).agg({
         'valor_asignado': 'sum',
         'hogares': 'sum'

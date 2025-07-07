@@ -34,6 +34,7 @@ layout = html.Div([
        html.P(
               "El archivo de datos contiene el número de hogares beneficiarios del subsidio familiar de vivienda otorgado por el Fondo Nacional de Vivienda (FONVIVIENDA), "
               "incluyendo información desde 2003 hasta la fecha de actualización (20250702), clasificada por departamento, municipio, programa y otras variables relevantes."
+              "(Para el estudio solo se tuvo en cuenta los datos como estado de postulación igual a: Asignados)."
        ),
        html.P("En este análisis se abordarán las siguientes preguntas:"),
        html.Ul([
