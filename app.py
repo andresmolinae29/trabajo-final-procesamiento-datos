@@ -37,7 +37,7 @@ app.layout = html.Div(
                 html.Div(
                     [
                         html.Img(
-                            src=app.get_asset_url("logo-universidad-nacional.png"),
+                            src=app.get_asset_url("logo_universidad_nacional.png"),
                             style={
                                 "height": "60px",
                                 "marginRight": "20px",
