@@ -67,19 +67,7 @@ text_component = dbc.Card(
     [
         dbc.CardHeader(html.H5("Explicación general:")),
         dbc.CardBody([
-            html.P(
-                "Esta visualización muestra la evolución general —sin filtros por región, programa ni población— del subsidio familiar de vivienda administrado por FONVIVIENDA desde 2003 hasta 2025, analizada en tres dimensiones: valor total asignado, hogares beneficiados y valor promedio por hogar."),
-            html.P(
-                "En el primer gráfico, se observa un incremento notable en el valor asignado por año, con un salto abrupto en 2012 y picos importantes alrededor de 2014, 2021 y 2022, donde se superaron los 2 billones de pesos anuales. Este comportamiento refleja decisiones presupuestales estratégicas y posiblemente la implementación de programas de alto impacto como Mi Casa Ya. Hacia 2025, el valor cae bruscamente, lo cual puede deberse a rezagos en ejecución, cierre de programas o corte de la actualización."
-            ),
-            html.P(
-                "El segundo gráfico muestra el número de hogares beneficiados por año, con una tendencia más variable. Se destacan aumentos en 2007 y especialmente entre 2021 y 2022, con más de 80.000 hogares beneficiados anualmente, seguidos por una caída en 2025. Esta variabilidad sugiere que la cantidad de subsidios entregados no siempre crece proporcionalmente con el presupuesto.",
-            ),
-            html.P(
-                "El tercer gráfico, que muestra el valor promedio asignado por hogar, permite identificar cambios estructurales: desde valores cercanos a los 7 millones en 2003, se alcanza un pico de más de 35 millones por hogar en 2013. Posteriormente, aunque el valor promedio se mantiene elevado, oscila entre 22 y 30 millones hasta 2025. Esto indica una evolución en la política de subsidios, posiblemente hacia un mayor monto unitario por hogar."
-            ),
-            html.P(
-                "En conjunto, los gráficos reflejan una tendencia general hacia la ampliación y fortalecimiento de la inversión pública en vivienda, aunque con comportamientos dispares año a año, posiblemente influenciados por factores económicos, políticos o emergencias sociales."
+            html.P("El gráfico presenta la evolución del subsidio habitacional en Colombia a lo largo del tiempo. En el primer panel se observa un incremento sostenido del valor total asignado por año, con picos significativos entre 2013 y 2015, y nuevamente entre 2021 y 2023. Esto sugiere momentos de fuerte inversión pública en programas de vivienda. El segundo panel muestra la cantidad de hogares beneficiados, con una tendencia más estable pero con una caída abrupta en 2012 y una fuerte alza en 2021–2022. Finalmente, el tercer panel revela que el valor promedio asignado por hogar ha aumentado progresivamente, pasando de cifras cercanas a los 8 millones en los primeros años a más de 30 millones en promedio después de 2013, lo que indica un mayor monto de subsidio individual en años recientes. Esta evolución puede reflejar tanto ajustes por inflación como un cambio en el enfoque de los programas, priorizando montos mayores por beneficiario."
             )
         ]
         , style={'marginTop': '20px', 'marginBottom': '20px'}

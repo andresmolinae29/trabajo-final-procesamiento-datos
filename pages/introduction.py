@@ -13,6 +13,17 @@ layout = html.Div([
               "utilizando Dash y Plotly para la visualización interactiva. El objetivo principal es comprender la evolución, "
               "distribución y características de los subsidios otorgados en el país."
        ),
+       html.A(
+              "GitHub",
+              href="https://github.com/andresmolinae29/trabajo-final-procesamiento-datos",
+              target="_blank",
+              style={
+                     "color": "#000000",
+                     "fontWeight": "bold"
+              }
+       ),
+       html.Br(),
+       html.Br(),
        html.P(
               "A lo largo del análisis, se examinarán tendencias temporales, distribución geográfica y tipos de subsidios, "
               "apoyados en gráficos dinámicos que facilitan la interpretación de los datos."

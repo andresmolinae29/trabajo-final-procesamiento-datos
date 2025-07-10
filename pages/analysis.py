@@ -17,7 +17,6 @@ dropdown_options = [
     {"label": "Departamento", "value": "departamento"},
     {"label": "Municipio", "value": "municipio"},
     {"label": "Programa", "value": "programa"},
-    {"label": "Estado de postulación", "value": "estado_de_postulacion"},
     {"label": "Hogares", "value": "hogares"},
     {"label": "Valor asignado", "value": "valor_asignado"},
     {"label": "Valor por hogar", "value": "valor_por_hogar"},
